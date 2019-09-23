@@ -7,7 +7,7 @@ Deferred Acceptance Algorithm for hospital/residents problems [https://en.wikipe
     
  ##Sample Request  
       
->{
+```{
 "student_prefs": [
   + { ... }
 ],
@@ -17,7 +17,7 @@ Deferred Acceptance Algorithm for hospital/residents problems [https://en.wikipe
 "college_capacity": [
   + { ... }
 ]
-}
+}```
     
 Where student_prefs are equivalent to student_prefs and college_prefs are equivalent to project_prefs. And of course, college_capacity would be equivalent to project_capacity.
     
