@@ -25,7 +25,7 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
     
 ## Next Steps
   
-Consider implementation of either the Matching Tools API or build a Lambda Labs specific instance of the algorithm.
+~~Consider implementation of either the Matching Tools API~~ or build a Lambda Labs specific instance of the algorithm.
 
-Test Matching Tools API for appropriate response and transfomation given Lambda Labs inputs.
+~~Test Matching Tools API for appropriate response and transfomation given Lambda Labs inputs.~~
 
