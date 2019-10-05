@@ -45,14 +45,16 @@ The decision was made to break the algorithm implementaion for student team assi
 
 ### Assign People by Timezone to Projects given project constraints
 
-```Timezone in UTC
+```
+Timezone in UTC
 
 Project constraints
 1. All projects must have => 1 Web BE
 2. No project has more than =< 2 UI/UX
-3. No project has more than =< 2 DS```
-  
-```Load People in memory
+3. No project has more than =< 2 DS
+```
+
+Load People in memory
 Load Project in memory
 Load ProjectRoles in memory
 
