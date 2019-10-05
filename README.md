@@ -41,7 +41,12 @@ The decision was made to break the algorithm implementaion for student team assi
   
 ## Release 2 due Oct 14
   
-Sort People into projects groupby projectroles and optimize timezone(UTC)
+Sort People into Projects groupby projectroles and optimize timezone(UTC)
+
+### Constraints for projects
+1. => 1 Web BE
+2. =< 2 UI/UX
+3. =< DS
 
 ## Release 3 due Oct 23
 
