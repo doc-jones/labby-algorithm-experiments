@@ -55,6 +55,11 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
 ```
 Timezone in UTC
 
+Define Projects as
+  1. Data Science
+  2. Web
+  3. Hybrid
+  
 Project constraints
 1. Web and Hybrid projects must have => 1 Web BE
 2. No project has more than =< 2 UI/UX
@@ -65,12 +70,6 @@ Load People in memory
 Load Project in memory  
 Load ProjectRoles in memory  
 
-Define Projects as
-  1. Data Science
-  2. Web
-  3. Hybrid
-  
-  
 
 ```
 ### Experiment 3.  Constraint solver
