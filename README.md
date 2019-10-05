@@ -1,9 +1,10 @@
 # labby-algorithm-experiments
 **Research phase of algorithm choice for student to project assignment in Lambda Labs**
   
-  ###
-  ~~Experiment 1.  Deferred Acceptance Algorithm for hospital/residents problem  ~~
-  ## Rejected
+~~Experiment 1.  Deferred Acceptance Algorithm for hospital/residents problem  ~~
+```diff
+  #### Rejected
+  ```
     
 Deferred Acceptance Algorithm for [hospital/residents problems](https://en.wikipedia.org/wiki/National_Resident_Matching_Program#Matching_algorithm) (a.k.a. college admissions problems) with incomplete rank order lists. Finds the college- or student-optimal stable matchings or the related [stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem). The implementation allows for incomplete preference lists (some agents find certain agents unacceptable) and unbalanced instances (unequal number of agents on both sides).  
     
@@ -39,12 +40,12 @@ The decision was made to spread the algorithm implementaion for student team ass
 * Release 3. Will optimize for student's top 3 project choices.
 
 ## Release 1 is complete.
-[Sort People evenly into to teams.](https://github.com/Lambda-School-Labs/labby-be/tree/master/Sorting)  
+#### [Sort People evenly into to teams.](https://github.com/Lambda-School-Labs/labby-be/tree/master/Sorting)  
   
 ## Release 2 due Oct 14
 
-## Experiment 2.  Greedy algorithm  
-### [Start with Greedy algorithm.](https://en.wikipedia.org/wiki/Greedy_algorithm)
+### Experiment 2.  Greedy algorithm  
+#### [Start with Greedy algorithm.](https://en.wikipedia.org/wiki/Greedy_algorithm)
 
 ### Assign People by Timezone to Projects given project constraints
 
@@ -69,8 +70,8 @@ Define Projects as
   
 
 ```
-## Experiment 3.  Constraint solver
-## [Start with Constraint Satisfaction Problem.](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)
+### Experiment 3.  Constraint solver
+#### [Start with Constraint Satisfaction Problem.](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)
 
 
 ## Release 3 due Oct 23
