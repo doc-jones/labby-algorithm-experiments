@@ -31,7 +31,7 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
 
 # Labby Releases 1, 2 and 3
   
-The decision was made to break the algorithm implementaion for student team assignment into 3 steps for this Labs16 project.
+The decision was made to break the algorithm implementaion for student team assignment into 3 releases for this Labs16 project.
 * Release 1. Included an even distribution of students into teams.
 * Release 2. Will assign students to teams based upon projectroles and timezone(UTC).
 * Release 3. Will optimize for student's top 3 project choices.
