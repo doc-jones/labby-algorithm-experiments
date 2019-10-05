@@ -39,7 +39,7 @@ Deferred Acceptance Algorithm for [hospital/residents problems](https://en.wikip
     
 Where student_prefs are equivalent to student_prefs and college_prefs are equivalent to project_prefs. And of course, college_capacity would be equivalent to project_capacity.
     
-## Next Steps
+#### ~~Next Steps~~
   
 ~~Consider implementation of either the Matching Tools API~~ or build a Lambda Labs specific instance of the algorithm.
 
