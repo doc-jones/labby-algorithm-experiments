@@ -41,7 +41,7 @@ The decision was made to break the algorithm implementaion for student team assi
   
 ## Release 2 due Oct 14
 
-[Start with Greedy algorithm.](https://en.wikipedia.org/wiki/Greedy_algorithm)
+## [Start with Greedy algorithm.](https://en.wikipedia.org/wiki/Greedy_algorithm)
 
 ### Assign People by Timezone to Projects given project constraints
 
@@ -49,14 +49,25 @@ The decision was made to break the algorithm implementaion for student team assi
 Timezone in UTC
 
 Project constraints
-1. All projects must have => 1 Web BE
+1. Web and Hybrid projects must have => 1 Web BE
 2. No project has more than =< 2 UI/UX
 3. No project has more than =< 2 DS
 ```
-
+```
 Load People in memory  
 Load Project in memory  
 Load ProjectRoles in memory  
+
+Define Projects as
+  1. Data Science
+  2. Web
+  3. Hybrid
+  
+  
+
+```
+
+## [Start with Constraint Satisfaction Problem.](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)
 
 
 ## Release 3 due Oct 23
