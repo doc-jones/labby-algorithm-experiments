@@ -29,7 +29,7 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
 
 ~~Test Matching Tools API for appropriate response and transfomation given Lambda Labs inputs.~~
 
-# Labby Releases 2 and 3
+# Labby Releases 1, 2 and 3
   
 The decision was made to break the algorithm implementaion for student team assignment into 3 steps for this Labs16 project.
 * Release 1. Included an even distribution of students into teams.
