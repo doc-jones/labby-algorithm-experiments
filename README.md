@@ -54,9 +54,9 @@ Project constraints
 3. No project has more than =< 2 DS
 ```
 
-Load People in memory
-Load Project in memory
-Load ProjectRoles in memory
+Load People in memory  
+Load Project in memory  
+Load ProjectRoles in memory  
 
 
 ## Release 3 due Oct 23
