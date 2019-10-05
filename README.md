@@ -40,13 +40,22 @@ The decision was made to break the algorithm implementaion for student team assi
 [Sort People evenly into to teams.](https://github.com/Lambda-School-Labs/labby-be/tree/master/Sorting)  
   
 ## Release 2 due Oct 14
-  
-Sort People into Projects groupby projectroles and optimize timezone(UTC)
 
-### Constraints for projects
-1. => 1 Web BE
-2. =< 2 UI/UX
-3. =< 2 DS
+[Start with Greedy algorithm.](https://en.wikipedia.org/wiki/Greedy_algorithm)
+
+### Assign People by Timezone to Projects given project constraints
+
+```Timezone in UTC
+
+Project constraints
+1. All projects must have => 1 Web BE
+2. No project has more than =< 2 UI/UX
+3. No project has more than =< 2 DS```
+  
+```Load People in memory
+Load Project in memory
+Load ProjectRoles in memory
+
 
 ## Release 3 due Oct 23
 
