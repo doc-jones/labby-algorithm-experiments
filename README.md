@@ -1,5 +1,19 @@
 # labby-algorithm-experiments
 **Research phase of algorithm choice for student to project assignment in Lambda Labs**
+
+
+# Labby Releases 1, 2 and 3
+  
+The decision was made to spread the algorithm implementaion for student team assignment across 3 releases for this Labs16 project.
+* Release 1. Included an even distribution of students into teams.
+* Release 2. Will assign students to teams based upon projectroles and timezone(UTC).
+* Release 3. Will optimize for student's top 3 project choices.
+
+## Release 1 is complete.
+#### [Sort People evenly into to teams.](https://github.com/Lambda-School-Labs/labby-be/tree/master/Sorting) 
+
+  
+## Release 2 due Oct 14
   
 ~~Experiment 1.  Deferred Acceptance Algorithm for hospital/residents problem  ~~
   :no_entry: Rejected
@@ -30,17 +44,7 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
 
 ~~Test Matching Tools API for appropriate response and transfomation given Lambda Labs inputs.~~
 
-# Labby Releases 1, 2 and 3
-  
-The decision was made to spread the algorithm implementaion for student team assignment across 3 releases for this Labs16 project.
-* Release 1. Included an even distribution of students into teams.
-* Release 2. Will assign students to teams based upon projectroles and timezone(UTC).
-* Release 3. Will optimize for student's top 3 project choices.
-
-## Release 1 is complete.
-#### [Sort People evenly into to teams.](https://github.com/Lambda-School-Labs/labby-be/tree/master/Sorting)  
-  
-## Release 2 due Oct 14
+------
 
 ### Experiment 2.  Greedy algorithm  
 #### [Start with Greedy algorithm.](https://en.wikipedia.org/wiki/Greedy_algorithm)
