@@ -16,7 +16,7 @@ The decision was made to spread the algorithm implementaion for student team ass
 ## Release 2 due Oct 14
   
 :no_entry: Rejected  
-###~~Experiment 1.  Deferred Acceptance Algorithm for hospital/residents problem~~
+### ~~Experiment 1.  Deferred Acceptance Algorithm for hospital/residents problem~~
 
     
 Deferred Acceptance Algorithm for [hospital/residents problems](https://en.wikipedia.org/wiki/National_Resident_Matching_Program#Matching_algorithm) (a.k.a. college admissions problems) with incomplete rank order lists. Finds the college- or student-optimal stable matchings or the related [stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem). The implementation allows for incomplete preference lists (some agents find certain agents unacceptable) and unbalanced instances (unequal number of agents on both sides).  
