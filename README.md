@@ -37,7 +37,7 @@ The decision was made to break the algorithm implementaion for student team assi
 * Release 3. Will optimize for student's top 3 project choices.
 
 ## Release 1 is complete.
-Sort People evenly into to teams.(https://github.com/Lambda-School-Labs/labby-be/tree/master/Sorting)  
+[Sort People evenly into to teams.](https://github.com/Lambda-School-Labs/labby-be/tree/master/Sorting)  
   
 ## Release 2 due Oct 14
   
