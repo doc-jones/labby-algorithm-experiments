@@ -46,7 +46,7 @@ Sort People into Projects groupby projectroles and optimize timezone(UTC)
 ### Constraints for projects
 1. => 1 Web BE
 2. =< 2 UI/UX
-3. =< DS
+3. =< 2 DS
 
 ## Release 3 due Oct 23
 
