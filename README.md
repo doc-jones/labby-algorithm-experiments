@@ -97,8 +97,13 @@ Use case applicable will maximize resource allocation and also minimize timezone
 
 #### PROBLEM (what)
 
-n Students assigned to n Projects
+n Students assigned to n Projects  
 Each Project requires certain ProjectRoles and teamSize
+  1. Web and Hybrid projects must have => 1 Web BE
+  2. No project has more than =< 2 UI/UX
+  3. No project has more than =< 2 DS
+  4. Web and Hybrid TeamSize = 6, min = 4, max = 9
+  5. DS TeamSize = 2
 Objective: assign students to projects while minimzing timeZone deltas
 
 #### PROBLEM RESOLUTION (how)
