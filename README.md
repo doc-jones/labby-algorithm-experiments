@@ -91,11 +91,12 @@ for(Object obj : student) {
 presuming there exists a function that, given a list of students equipped with projectroles, returns an 
 assignment satisfying the student per role-constraint (e.g. 1<=backend, 1<=DS<=4, etc.)
 
-with student object sorted by timezone run function against collection finding best match given timezone priority. Start at the top
-for each project.
+with student object sorted by timezone run function against collection finding best match given timezone  
+priority. Start at the top for each project.
 
-presume there are unassigned students after first pass, and each project has been assigned an int, projectOrder, descending.
-Then assign remaining students to projects in ascending projectOrder to ensure nearest timezone.
+presume there are unassigned students after first pass, and each project has been assigned an int,  
+projectOrder, descending. Then assign remaining students to projects in ascending projectOrder to  
+ensure nearest timezone.
 
 if students remain unassigned, throw exception and report for human intervention
 ```
