@@ -54,8 +54,6 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
 
 ```
 Timezone String in UTC
-Create timeZoneBuckets floor-divide to combine 2 timezones per bucket
-ex: Math.floor(val); where val = timeZone/2;
 
 Define Projects as (??? will this field be available in the db?)
   1. Data Science
