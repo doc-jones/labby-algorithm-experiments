@@ -53,7 +53,7 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
 ### Assign People by Timezone to Projects given project constraints
 
 ```
-int Timezone String in UTC
+Timezone String in UTC
 Create timeZoneBuckets floor-divide to combine 2 timezones per bucket
 ex: Math.floor(val); where val = timeZone/2;
 
