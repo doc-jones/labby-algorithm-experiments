@@ -66,6 +66,8 @@ Project constraints
 1. Web and Hybrid projects must have => 1 Web BE
 2. No project has more than =< 2 UI/UX
 3. No project has more than =< 2 DS
+4. Web and Hybrid TeamSize = 6, min = 4, max = 9
+5. DS TeamSize = 2
 ```
 ```
 Initialize People  
