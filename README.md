@@ -53,7 +53,9 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
 ### Assign People by Timezone to Projects given project constraints
 
 ```
-Timezone in UTC
+int Timezone String in UTC
+Create timeZoneBuckets floor-divide to combine 2 timezones per bucket
+ex: Math.floor(val); where val = timeZone/2;
 
 Define Projects as
   1. Data Science
@@ -66,15 +68,24 @@ Project constraints
 3. No project has more than =< 2 DS
 ```
 ```
-Load People in memory  
-Load Project in memory  
-Load ProjectRoles in memory  
+Initialize People  
+Initialize Project  
+Initialize ProjectRoles  
 
-Pair<String, Integer> teamMember = Pair.with(projectRole,timeZone);
+Pair<String, Integer> teamMember = Pair.with(projectRole,timeZoneBucket);
+or
+Pair<String, Integer> person = new Pair<String, Integer>(projectRole, timeZoneBucket);
  
 for(Object obj : teamMember) {
     ...Assign to project
 }
+
+presuming there exists a function that, given a list of people equipped with projectroles, returns a random assignment 
+satisfying the people per role-constraints (e.g. 1<=backend, 1<=DS<=4, etc.)
+
+split up the collection of people by timezone bucket, such that you now have one collection for each bucket. Then run the random 
+solver function on each timezone bucket
+
 
 ```
 ### Experiment 3.  Constraint solver
