@@ -88,6 +88,7 @@ assignment satisfying the people per role-constraints (e.g. 1<=backend, 1<=DS<=4
 split up the collection of people by timezone bucket, such that you now have one collection for each bucket. 
 Then run the random solver function on each timezone bucket
 
+-------
 
 ```
 ### Experiment 3.  Constraint solver
