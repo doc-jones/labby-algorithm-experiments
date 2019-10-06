@@ -50,7 +50,7 @@ Where student_prefs are equivalent to student_prefs and college_prefs are equiva
 ### Experiment 2.  Greedy algorithm  
 #### [Start with Greedy algorithm.](https://en.wikipedia.org/wiki/Greedy_algorithm)
 
-### Assign People by Timezone to Projects given project constraints
+### Assign Students by Timezone to Projects given project constraints
 
 ```
 Timezone String in UTC
