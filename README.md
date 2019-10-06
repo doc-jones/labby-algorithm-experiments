@@ -95,38 +95,38 @@ Then run the random solver function on each timezone bucket
 
 Use case applicable will maximize resource allocation and also minimize timezones.
 
-PROBLEM (what)
+#### PROBLEM (what)
 
 n Students assigned to n Projects
 Each Project requires certain ProjectRoles and teamSize
 Objective: assign students to projects while minimzing timeZone deltas
 
-PROBLEM RESOLUTION (how)
+#### PROBLEM RESOLUTION (how)
 
 Find a solution that defines a project for each student.
 Find an optimal solution that minimizes timeZone for optimalization of team assignment.
 Add other optimalizations easily in future releases, such as, student affinity
 
-
+```
 Rules Example:  
 Domain:
 - Student
    - ProjectRole
-   - ProjectChoice
-   - Affinity with teamMember: [None, negative, positive]
+   - ProjectChoice //future release
+   - Affinity with teamMember: [None, negative, positive] //future release
 - Project
    - Type: [DS, Web, Hybrid]
       - Project type impacts teamSize
    - Required ProjectRoles
-       - Student project choice impacts team assignment
+       - Student project choice impacts team assignment //future release
    - teamMember
-      - Student affinity impacts team assignment
+      - Student affinity impacts team assignment //future release
       
  Constraints:
  - ProjectRole (HARD): Project.requiredRrojectRoles === Student.projectRole
  - Minimize timeZone delta (SOFT 0)
  - Team size (SOFT 1)
-
+```
 
 
 
