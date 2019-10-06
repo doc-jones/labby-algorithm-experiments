@@ -7,7 +7,7 @@
 The decision was made to spread the algorithm implementaion for student team assignment across 3 releases for this Labs16 project.
 * Release 1. Included an even distribution of students into teams.
 * Release 2. Will assign students to teams based upon projectroles and timezone(UTC).
-* Release 3. Will optimize for student's top 3 project choices.
+* Release 3. Will optimize for student's top 3 project choices and teamMember preferences.
 
 ## Release 1 is complete.
 #### [Sort People evenly into to teams.](https://github.com/Lambda-School-Labs/labby-be/tree/master/Sorting) 
