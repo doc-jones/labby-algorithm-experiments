@@ -70,6 +70,11 @@ Load People in memory
 Load Project in memory  
 Load ProjectRoles in memory  
 
+Pair<String, Integer> teamMember = Pair.with(projectRole,timeZone);
+ 
+for(Object obj : teamMember) {
+    ...Assign to project
+}
 
 ```
 ### Experiment 3.  Constraint solver
