@@ -72,21 +72,32 @@ Project constraints
 ```
 Initialize People  
 Initialize Project  
-Initialize ProjectRoles  
+Initialize ProjectRoles
+Initialize ProjectType
+Initialize ProjectOrder
 
-Pair<String, Integer> teamMember = Pair.with(projectRole,timeZoneBucket);
+Pair<String, Integer> student = Pair.with(projectRole, timeZone);
 or
-Pair<String, Integer> person = new Pair<String, Integer>(projectRole, timeZoneBucket);
+Pair<String, Integer> student = new Pair<String, Integer>(projectRole, timeZone);
  
-for(Object obj : teamMember) {
-    ...Assign to project
+for(Object obj : student) {
+    ...Assign to project, given projectType
+    if studentUnassigned {
+      List<projectOrder> reverseOrder = projectOrder.ascending - 1
+    }else{
+      return projectAssignment;
 }
 
-presuming there exists a function that, given a list of people equipped with projectroles, returns a random
-assignment satisfying the people per role-constraints (e.g. 1<=backend, 1<=DS<=4, etc.)
+presuming there exists a function that, given a list of students equipped with projectroles, returns an 
+assignment satisfying the student per role-constraint (e.g. 1<=backend, 1<=DS<=4, etc.)
 
-split up the collection of people by timezone bucket, such that you now have one collection for each bucket. 
-Then run the random solver function on each timezone bucket  
+with student object sorted by timezone run function against collection finding best match given timezone priority. Start at the top
+for each project.
+
+presume there are unassigned students after first pass, and each project has been assigned an int, projectOrder, descending.
+Then assign remaining students to projects in ascending projectOrder to ensure nearest timezone.
+
+if students remain unassigned, throw exception and report for human intervention
 ```
 
 -------
@@ -115,7 +126,7 @@ Find an optimal solution that minimizes timeZone for optimalization of team assi
 Add other optimalizations easily in future releases, such as, student affinity
 
 ```
-RULES EXAMPLE
+RULES EXAMPLE 1
 
 Domain:
 - Student
@@ -136,7 +147,14 @@ Domain:
  - Team size (SOFT 1)
 ```
 
+```
+RULES EXAMPLE 2
 
+Reverse priority of constraints with timeZone as the HARD
+and projectRole as the SOFT
+```
+
+-------
 
 ## Release 3 due Oct 23
 
