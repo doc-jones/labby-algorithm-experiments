@@ -86,11 +86,11 @@ presuming there exists a function that, given a list of people equipped with pro
 assignment satisfying the people per role-constraints (e.g. 1<=backend, 1<=DS<=4, etc.)
 
 split up the collection of people by timezone bucket, such that you now have one collection for each bucket. 
-Then run the random solver function on each timezone bucket
+Then run the random solver function on each timezone bucket  
+```
 
 -------
 
-```
 ### Experiment 3.  Constraint solver
 #### [Start with Constraint Satisfaction Problem.](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)
 
