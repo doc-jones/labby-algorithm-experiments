@@ -93,6 +93,33 @@ Then run the random solver function on each timezone bucket
 ### Experiment 3.  Constraint solver
 #### [Start with Constraint Satisfaction Problem.](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)
 
+Use case applicable will maximize resource allocation and also minimize timezones.
+
+Problem
+
+
+Rules Example:  
+Domain:
+- Student
+   - ProjectRole
+   - ProjectChoice
+   - Affinity with teamMember: [None, negative, positive]
+- Project
+   - Type: [DS, Web, Hybrid]
+      - Project type impacts teamSize
+   - Required ProjectRoles
+       - Student project choice impacts team assignment
+   - teamMember
+      - Student affinity impacts team assignment
+      
+ Constraints:
+ - ProjectRole (HARD): Project.requiredRrojectRoles === Student.projectRole
+ - Minimize timeZone delta (SOFT 0)
+ - Team size (SOFT 1)
+
+
+
+
 
 ## Release 3 due Oct 23
 
