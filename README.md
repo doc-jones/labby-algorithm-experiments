@@ -80,11 +80,11 @@ for(Object obj : teamMember) {
     ...Assign to project
 }
 
-presuming there exists a function that, given a list of people equipped with projectroles, returns a random assignment 
-satisfying the people per role-constraints (e.g. 1<=backend, 1<=DS<=4, etc.)
+presuming there exists a function that, given a list of people equipped with projectroles, returns a random
+assignment satisfying the people per role-constraints (e.g. 1<=backend, 1<=DS<=4, etc.)
 
-split up the collection of people by timezone bucket, such that you now have one collection for each bucket. Then run the random 
-solver function on each timezone bucket
+split up the collection of people by timezone bucket, such that you now have one collection for each bucket. 
+Then run the random solver function on each timezone bucket
 
 
 ```
