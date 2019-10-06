@@ -114,7 +114,7 @@ Find an optimal solution that minimizes timeZone for optimalization of team assi
 Add other optimalizations easily in future releases, such as, student affinity
 
 ```
-Rules Example:  
+#### Rules Example:  
 Domain:
 - Student
    - ProjectRole
