@@ -124,6 +124,17 @@ Find a solution that defines a project for each student.
 Find an optimal solution that minimizes timeZone for optimalization of team assignment.
 Add other optimalizations easily in future releases, such as, student affinity
 
+#### MODEL
+
+#### VARIABLES
+
+#### CONSTRAINTS
+
+#### SOLVER
+
+--------------
+
+#### RULES
 ```
 RULES EXAMPLE 1
 
