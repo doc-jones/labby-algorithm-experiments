@@ -126,11 +126,19 @@ Add other optimalizations easily in future releases, such as, student affinity
 
 #### MODEL
 
+Code snippet or pseudocode to be added
+
 #### VARIABLES
+
+Code snippet or pseudocode to be added
 
 #### CONSTRAINTS
 
+Code snippet or pseudocode to be added
+
 #### SOLVER
+
+Code snippet or pseudocode to be added
 
 --------------
 
